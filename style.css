@@ -6,6 +6,9 @@
 @font-face {
     font-family: Spartan;
     src: url(./font/LeagueSpartan-Bold.otf);
+
+    font-family: SpartanThin;
+    src: url(./font/Spartan-Light.ttf);
   }
 
 body {
@@ -30,11 +33,21 @@ body {
     padding-top: 30px;
     text-shadow: 2px 2px 3px #23232344;
 }
+h1 {
+font-size: 40px;
+}
 h3 {
-    font-weight: 200;
+    font-family: SpartanThin, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 27px;
 }
 .sub {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: SpartanThin, Helvetica, sans-serif;
+    font-weight: 300;
+    
+}
+.left {
+    max-width: 600px;
 }
 
 .right {
